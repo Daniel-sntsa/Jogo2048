@@ -124,26 +124,6 @@ Depois:
 
 ---
 
-## 🧭 **Fluxograma do Jogo**
-
-```mermaid
-graph TD
-    A[Início do Programa] --> B[Escolher nível de dificuldade]
-    B --> C[Gerar tabuleiro vazio]
-    C --> D[Adicionar duas peças iniciais]
-    D --> E[Mostrar tabuleiro]
-    E --> F{Vitória?}
-    F -- Sim --> G[Exibir mensagem de vitória e encerrar]
-    F -- Não --> H[Receber movimento do jogador (w/a/s/d/q)]
-    H -- q --> I[Fim: Jogador desistiu]
-    H -- w/a/s/d --> J[Atualizar tabuleiro com movimento]
-    J --> K[Adicionar nova peça 2 ou 4]
-    K --> L[Verificar se há movimentos possíveis]
-    L -- Não --> M[Exibir mensagem de derrota e encerrar]
-    L -- Sim --> E
-```
-
----
 
 ## ✅ **Conceitos Aplicados**
 - Estruturas de dados: **listas (matrizes 4x4)**
