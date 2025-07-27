@@ -15,7 +15,7 @@ O objetivo do jogo é combinar números iguais no tabuleiro para formar potênci
 2. Certifique-se de que os arquivos estão na mesma pasta.  
 3. Execute no terminal:  
    ```bash
-   python _2048Parte3_jogo_Daniel_Lucas_Rodrigues.py
+   python _2048_jogo_Daniel_Lucas_Rodrigues.py
    ```
 4. Siga as instruções exibidas no console para jogar.
 
@@ -38,7 +38,7 @@ O objetivo do jogo é combinar números iguais no tabuleiro para formar potênci
 
 ## 🛠️ **Estrutura do Código**
 
-### 📄 **1. `_2048Parte3_funcoes_Daniel_Lucas_Rodrigues.py`**
+### 📄 **1. `_2048_funcoes_Daniel_Lucas_Rodrigues.py`**
 Contém as funções principais do jogo:
 - `vitoria(tabuleiro, criterio)` → verifica se o objetivo foi alcançado.  
 - `dois_ou_quatro(tabuleiro)` → adiciona aleatoriamente um 2 ou 4 no tabuleiro.  
@@ -46,7 +46,7 @@ Contém as funções principais do jogo:
 - `esquerda(tabuleiro)` → movimenta e combina peças para a esquerda.  
 - `direita(tabuleiro)` → movimenta e combina peças para a direita.  
 
-### 📄 **2. `_2048Parte3_jogo_Daniel_Lucas_Rodrigues.py`**
+### 📄 **2. `_2048_jogo_Daniel_Lucas_Rodrigues.py`**
 Responsável pelo fluxo do jogo:
 - `cima(tabuleiro)` → movimento para cima (usa `esquerda` com matriz transposta).  
 - `baixo(tabuleiro)` → movimento para baixo (usa `direita` com matriz transposta).  
